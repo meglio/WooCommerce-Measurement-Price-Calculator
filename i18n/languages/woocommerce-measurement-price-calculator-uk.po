@@ -1,0 +1,1297 @@
+# Copyright (C) 2018 SkyVerge
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Measurement Price Calculator 3.13.3\n"
+"Report-Msgid-Bugs-To: https://woocommerce.com/my-account/marketplace-ticket-"
+"form/\n"
+"POT-Creation-Date: 2014-06-15 22:41:28+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-05-30 12:59+0300\n"
+"Last-Translator: admin <admin@test.com>\n"
+"Language-Team: Українська\n"
+"Language: uk\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n"
+"%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Loco-Version: 2.2.1; wp-5.1.1\n"
+
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:71
+#: admin/post-types/writepanels/writepanel-product_data.php:42
+msgid ""
+"Overrides the area calculated from the width/length dimensions for the "
+"Measurements Price Calculator."
+msgstr ""
+"Перетирає значення площі, розрахованої з розмірів довжини та ширини модуля "
+"Measurements Price Calculator."
+
+#: admin/post-types/writepanels/writepanel-product-type-variable.php:78
+#: admin/post-types/writepanels/writepanel-product_data.php:44
+msgid ""
+"Overrides the volume calculated from the width/length/height dimensions for "
+"the Measurements Price Calculator."
+msgstr ""
+"Перетирає значення об’єму, розрахованого з розмірів довжини, ширини та "
+"висоти модуля Measurements Price Calculator."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:39
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:109
+msgid "Measurement"
+msgstr "Вимірювання"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:75
+msgid "Calculator Settings"
+msgstr "Налаштування калькулятора"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:76
+msgid "Pricing Table"
+msgstr "Таблиця розцінок"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:90
+msgid "None"
+msgstr "Не обрано"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:91
+msgid "Dimensions"
+msgstr "Розміри"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:92
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:404
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1107
+#: admin/post-types/writepanels/writepanel-product_data.php:42
+#: classes/class-wc-price-calculator-product.php:256
+#: classes/class-wc-price-calculator-product.php:271
+#: classes/class-wc-price-calculator-product.php:276
+#: classes/class-wc-price-calculator-settings.php:812
+msgid "Area"
+msgstr "Площа"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:93
+msgid "Area (LxW)"
+msgstr "Площа (ДхШ)"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:94
+msgid "Perimeter (2L + 2W)"
+msgstr "Периметр (2Д + 2Ш)"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:95
+msgid "Surface Area 2(LW + LH + WH)"
+msgstr "Площа поверхні 2(ДШ + ДВ + ВШ)"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:96
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:875
+#: admin/post-types/writepanels/writepanel-product_data.php:44
+#: classes/class-wc-price-calculator-product.php:409
+#: classes/class-wc-price-calculator-product.php:446
+#: classes/class-wc-price-calculator-product.php:461
+#: classes/class-wc-price-calculator-product.php:466
+msgid "Volume"
+msgstr "Об’єм"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:97
+msgid "Volume (LxWxH)"
+msgstr "Об’єм (ДхШхВ)"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:98
+msgid "Volume (AxH)"
+msgstr "Об’єм (Площа х В)"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:99
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1230
+#: classes/class-wc-price-calculator-product.php:484
+msgid "Weight"
+msgstr "Вага"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:100
+msgid "Room Walls"
+msgstr "Стіни кімнати"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:111
+msgid ""
+"Select the product measurement to calculate quantity by or define pricing "
+"within."
+msgstr ""
+"Оберіть вимірювання товару для розрахунку кількості або визначіть ціну."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:115
+msgid ""
+"Use this measurement to have the customer prompted for a length and width to "
+"calculate the area required.  When pricing is disabled (no custom "
+"dimensions) this calculator uses the product area attribute or otherwise the "
+"length and width attributes to determine the product area."
+msgstr ""
+"Використовуйте це вимірювання, щоб запитати у користувача довжину та ширину "
+"для розрахунку площі. Коли ціноутворення вимкнено (немає специфічних "
+"розмірів), цей калькулятор використуває атрибут площі товару. Чи за "
+"відсутності - атрибути ширини та довжини для визначення площі товару."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:116
+msgid ""
+"Use this measurement to have the customer prompted for a length and width to "
+"calculate the linear distance (L * 2 + W * 2)."
+msgstr ""
+"Використовуйте це вимірювання, щоб запитати у користувача довжину та ширину "
+"для розрахунку лінійної дистанції (Д * 2 + Ш * 2)."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:117
+msgid ""
+"Use this measurement to have the customer prompted for a length, width and "
+"height to calculate the surface area 2 * (L * W + W * H + L * H)."
+msgstr ""
+"Використовуйте це вимірювання, щоб запитати у користувача довжину, ширину та "
+"висоту для розрахунку площі поверхні 2 * (Д * Ш + Ш * В + Д * В)."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:118
+msgid ""
+"Use this measurement to have the customer prompted for a length, width and "
+"height to calculate the volume required.  When pricing is disabled (no "
+"custom dimensions) this calculator uses the product volume attribute or "
+"otherwise the length, width and height attributes to determine the product "
+"volume."
+msgstr ""
+"Використовуйте це вимірювання, щоб запитати у користувача довжину, ширину та "
+"висоту для розрахунку об’єму. Коли ціноутворення вимкнено (немає специфічних "
+"розмірів), цей калькулятор використуває атрибут об’єму товару. Чи за "
+"відсутності - атрибути довжини, ширини та висоти для визначення площі товару."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:119
+msgid ""
+"Use this measurement to have the customer prompted for an area and height to "
+"calculate the volume required.  When pricing is disabled (no custom "
+"dimensions) this calculator uses the product volume attribute or otherwise "
+"the length, width and height attributes to determine the product volume."
+msgstr ""
+"Використовуйте це вимірювання, щоб запитати у користувача площу та висоту "
+"для розрахунку об’єму. Коли ціноутворення вимкнено (немає специфічних "
+"розмірів), цей калькулятор використуває атрибут об’єму товару. Чи за "
+"відсутності - атрибути довжини, ширини та висоти для визначення площі товару."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:120
+msgid ""
+"Use this measurement for applications such as wallpaper; the customer will "
+"be prompted for the wall height and distance around the room.  When pricing "
+"is disabled (no custom dimensions) this calculator uses the product area "
+"attribute or otherwise the length and width attributes to determine the wall "
+"surface area."
+msgstr ""
+"Використовуйте це вимірювання для випадків на зразок шпалер. В користувача "
+"буде запитано висоту стіни та дистанцію по кімнаті. Коли ціноутворення "
+"вимкнено (немає специфічних розмірів), цей калькулятор використуває атрибут "
+"площі товару. Чи за відсутності - атрибути довжини та ширини для визначення "
+"площі поверхні стіни."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:127
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:333
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:424
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:540
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:656
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:804
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:895
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1043
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1159
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1251
+msgid "Show Product Price Per Unit"
+msgstr "Показувати ціну товару за одиницю"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:128
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:334
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:425
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:541
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:657
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:805
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:896
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1044
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1160
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1252
+msgid "Check this box to display product pricing per unit on the frontend"
+msgstr "Поставте відмітку для показу ціни товару за одиницю для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:134
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:340
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:431
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:547
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:663
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:811
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:902
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1050
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1166
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1258
+msgid "Pricing Label"
+msgstr "Лейбл ціни"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:135
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:341
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:432
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:548
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:664
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:812
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:903
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1051
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1167
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1259
+msgid "Label to display next to the product price (defaults to pricing unit)"
+msgstr ""
+"Лейбл для показу поряд з ціною товару (за замовчуванням одиниця товару)"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:142
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:348
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:439
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:555
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:671
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:819
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:910
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1058
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1174
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1266
+msgid "Pricing Unit"
+msgstr "Одиниця ціни"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:144
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:350
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:441
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:557
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:673
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:821
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:912
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1060
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1176
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1268
+msgid "Unit to define pricing in"
+msgstr "Одиниця вимірювання ціни"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:151
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:357
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:448
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:564
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:680
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:828
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:919
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1067
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1183
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1275
+msgid "Calculated Price"
+msgstr "Розрахована ціна"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:152
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:358
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:449
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:565
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:681
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:829
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:920
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1068
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1184
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1276
+msgid ""
+"Check this box to define product pricing per unit and allow customers to "
+"provide custom measurements"
+msgstr ""
+"Поставте відмітку для визначення ціни товару за одиницю та дозволити "
+"клієнтам проводити власні вимірювання."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:159
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:365
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:456
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:572
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:688
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:836
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:927
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1075
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1191
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1283
+msgid "Calculated Weight"
+msgstr "Розрахована вага"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:160
+msgid ""
+"Check this box to define the product weight per unit and calculate the item "
+"weight based on the product dimension"
+msgstr ""
+"Поставте відмітку для визначення ваги товару за одиницю та розрахувати вагу "
+"товару за його розмірами"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:167
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:373
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:464
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:580
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:696
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:844
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:935
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1083
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1199
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1291
+msgid "Calculated Inventory"
+msgstr "Розрахований складський облік"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:168
+msgid ""
+"Check this box to define inventory per unit and calculate inventory based on "
+"the product dimension"
+msgstr ""
+"Поставте відмітку для визначення складського обліку товару за одиницю та "
+"розрахувати складський облік за розмірами товару."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:181
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:210
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:488
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:604
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:720
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:959
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1315
+#: classes/class-wc-price-calculator-settings.php:806
+msgid "Length"
+msgstr "Довжина"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:182
+msgid "Select to display the product length in the price calculator"
+msgstr "Оберіть для показу довжини товару у калькуляторі ціни"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:188
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:473
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:589
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:705
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:944
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1300
+msgid "Length Label"
+msgstr "Лейбл довжини"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:189
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:474
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:590
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:706
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:945
+msgid "Length input field label to display on the frontend"
+msgstr "Лейбл поля вводу довжини для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:195
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:480
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:596
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:712
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:951
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1307
+msgid "Length Unit"
+msgstr "Одиниця довжини"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:197
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:482
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:598
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:714
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:953
+msgid "The frontend length input field unit"
+msgstr "Одиниця вимірювання довжини для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:203
+msgid "Length Editable"
+msgstr "Довжина може редагуватися"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:205
+msgid "Check this box to allow the needed length to be entered by the customer"
+msgstr "Поставте відмітку, щоб дозволити клієнту вводити необхідну довжину"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:218
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:496
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:612
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:728
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:967
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1323
+msgid "Length Options"
+msgstr "Опції довжини"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:232
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:261
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:520
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:636
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:752
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:991
+#: classes/class-wc-price-calculator-settings.php:808
+msgid "Width"
+msgstr "Ширина"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:233
+msgid "Select to display the product width in the price calculator"
+msgstr "Оберіть для показу ширини товару у калькуляторі ціни"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:239
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:505
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:621
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:737
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:976
+msgid "Width Label"
+msgstr "Лейбл ширини"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:240
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:506
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:622
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:738
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:977
+msgid "Width input field label to display on the frontend"
+msgstr "Лейбл поля вводу ширини для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:246
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:512
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:628
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:744
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:983
+msgid "Width Unit"
+msgstr "Одиниця ширини"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:248
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:514
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:630
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:746
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:985
+msgid "The frontend width input field unit"
+msgstr "Одиниця вимірювання ширини для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:254
+msgid "Width Editable"
+msgstr "Ширина може редагуватися"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:256
+msgid "Check this box to allow the needed width to be entered by the customer"
+msgstr "Поставте відмітку, щоб дозволити клієнту вводити необхідну ширину"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:269
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:528
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:644
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:760
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:999
+msgid "Width Options"
+msgstr "Опції ширини"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:283
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:312
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:784
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1023
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1139
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1347
+#: classes/class-wc-price-calculator-settings.php:810
+msgid "Height"
+msgstr "Висота"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:284
+msgid "Select to display the product height in the price calculator"
+msgstr "Оберіть для показу висоти товару у калькуляторі ціни"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:290
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:769
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1008
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1124
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1332
+msgid "Height Label"
+msgstr "Лейбл висоти"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:291
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:770
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1009
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1125
+msgid "Height input field label to display on the frontend"
+msgstr "Лейбл поля вводу висоти для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:297
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:776
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1015
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1131
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1339
+msgid "Height Unit"
+msgstr "Одиниця висоти"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:299
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:778
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1017
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1133
+msgid "The frontend height input field unit"
+msgstr "Одиниця вимірювання висоти для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:305
+msgid "Height Editable"
+msgstr "Висота може редагуватися"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:307
+msgid "Check this box to allow the needed height to be entered by the customer"
+msgstr "Поставте відмітку, щоб дозволити клієнту вводити необхідну висоту"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:320
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:792
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1031
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1147
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1355
+msgid "Height Options"
+msgstr "Опції висоти"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:366
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:457
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:573
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:689
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1284
+msgid ""
+"Check this box to define the product weight per unit and calculate the item "
+"weight based on the product area"
+msgstr ""
+"Поставте відмітку, щоб визначити вагу товару за одиницю та розрахувати вагу "
+"товару за площею товару"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:374
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:465
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:581
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:697
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1292
+msgid ""
+"Check this box to define inventory per unit and calculate inventory based on "
+"the product area"
+msgstr ""
+"Поставте відмітку, щоб визначити складський облік товару за одиницю виміру "
+"та розрахувати складський облік товару"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:382
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1092
+msgid "Area Label"
+msgstr "Лейбл площі"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:383
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1093
+msgid "Area input field label to display on the frontend"
+msgstr "Лейбл поля вводу площі для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:389
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1099
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:135
+msgid "Area Unit"
+msgstr "Одиниця площі"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:391
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1101
+msgid "The frontend area input field unit"
+msgstr "Одиниця вимірювання площі для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:397
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:868
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1223
+msgid "Editable"
+msgstr "Може редагуватися"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:399
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:870
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1225
+msgid ""
+"Check this box to allow the needed measurement to be entered by the customer"
+msgstr "Поставте відмітку, щоб дозволити клієнту вводити необхідні виміри"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:412
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1115
+msgid "Area Options"
+msgstr "Опції площі"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:837
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:928
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1076
+msgid ""
+"Check this box to define the product weight per unit and calculate the item "
+"weight based on the product volume"
+msgstr ""
+"Поставте відмітку, щоб визначити вагу товару за одиницю та розрахувати вагу "
+"товару за об’ємом товару"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:845
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:936
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1084
+msgid ""
+"Check this box to define inventory per unit and calculate inventory based on "
+"the product volume"
+msgstr ""
+"Поставте відмітку, щоб визначити складський облік товару за одиницю виміру "
+"та розрахувати складський облік за об’ємом товару"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:853
+msgid "Volume Label"
+msgstr "Лейбл об’єму"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:854
+msgid "Volume input field label to display on the frontend"
+msgstr "Лейбл поля вводу об’єму для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:860
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:159
+msgid "Volume Unit"
+msgstr "Одиниця об’єму"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:862
+msgid "The frontend volume input field unit"
+msgstr "Одиниця вимірювання об’єму для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:883
+msgid "Volume Options"
+msgstr "Опції об’єму"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1192
+msgid ""
+"Check this box to use the customer-configured product weight as the item "
+"weight"
+msgstr "Поставте відмітку, щоб використовувати вагу товару задану клієнтом"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1200
+msgid ""
+"Check this box to define inventory per unit and calculate inventory based on "
+"the product weight"
+msgstr ""
+"Поставте відмітку, щоб визначити складський облік товару за одиницю виміру "
+"та розрахувати складський облік за вагою товару"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1208
+msgid "Weight Label"
+msgstr "Лейбл ваги"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1209
+msgid "Weight input field label to display on the frontend"
+msgstr "Лейбл поля вводу ваги для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1215
+msgid "Weight Unit"
+msgstr "Одиниця ваги"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1217
+msgid "The frontend weight input field unit"
+msgstr "Одиниця вимірювання ваги для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1238
+msgid "Weight Options"
+msgstr "Опції ваги"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1301
+msgid "Wall length input field label to display on the frontend"
+msgstr "Лейбл поля вводу довжини висоти для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1309
+msgid "The frontend wall length input field unit"
+msgstr "Одиниця вимірювання довжини стіни для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1333
+msgid "Room wall height input field label to display on the frontend"
+msgstr "Лейбл поля вводу довжини стіни кімнати для клієнта"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1341
+msgid "The frontend room wall height input field unit"
+msgstr "Одиниця вимірювання висоти стіни для клієнта"
+
+#. translators: Placeholder: %s - delimiter to use in the input
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1950
+msgid ""
+"Use a single number to set a fixed value for this field on the frontend, or "
+"a %s-separated list of numbers to create a select box for the customer to "
+"choose between."
+msgstr ""
+"Використовуйте число для задавання фіксованого значення цього поля для "
+"клієнта, чи список значень, розділений %s для створення списку вибору "
+"значень."
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1953
+msgid "Example: 1/8; 0,5; 2"
+msgstr "Наприклад: 1/8; 0,5; 2"
+
+#: admin/post-types/writepanels/writepanel-product_data-calculator.php:1955
+msgid "Example: 1/8, 0.5, 2"
+msgstr "Наприклад: 1/8, 0.5, 2"
+
+#: admin/post-types/writepanels/writepanel-product_data-pricing_table.php:43
+msgid "Measurement Range"
+msgstr "Діапазон вимірювань"
+
+#: admin/post-types/writepanels/writepanel-product_data-pricing_table.php:44
+msgid ""
+"Configure the starting-ending range, inclusive, of measurements to match "
+"this rule.  The first matched rule will be used to determine the price.  The "
+"final rule can be defined without an ending range to match all measurements "
+"greater than or equal to its starting range."
+msgstr ""
+"Визначте початок та закінчення діапазону включно. Перше правило, що спрацює, "
+"визначить ціну. Останнє правило може бути визначено без задавання кінця "
+"діапазону, щоб визначити всі вимірювання, що більші або дорівнюють початку "
+"діапазону."
+
+#: admin/post-types/writepanels/writepanel-product_data-pricing_table.php:47
+msgid "Price per Unit"
+msgstr "Ціна за одиницю"
+
+#: admin/post-types/writepanels/writepanel-product_data-pricing_table.php:48
+msgid "Set the price per unit for the configured range."
+msgstr "Задайте ціну за одиницю для заданого діапазону"
+
+#: admin/post-types/writepanels/writepanel-product_data-pricing_table.php:51
+msgid "Sale Price per Unit"
+msgstr "Ціна зі знижкою за од."
+
+#: admin/post-types/writepanels/writepanel-product_data-pricing_table.php:52
+msgid "Set a sale price per unit for the configured range."
+msgstr "Задайте ціну зі знижкою за од. для заданого діапазону"
+
+#: admin/post-types/writepanels/writepanel-product_data-pricing_table.php:96
+msgid "Add Rule"
+msgstr "Додати правило"
+
+#: admin/post-types/writepanels/writepanel-product_data-pricing_table.php:97
+msgid "Delete Selected"
+msgstr "Видалити обрані"
+
+#. translators: Placeholders: %s - currency symbol
+#: admin/post-types/writepanels/writepanel-product_data.php:105
+msgid "Minimum Price (%s)"
+msgstr "Мінімальна ціна (%s)"
+
+#: admin/post-types/writepanels/writepanels-init.php:88
+msgid "g"
+msgstr "г"
+
+#: admin/post-types/writepanels/writepanels-init.php:89
+msgid "kg"
+msgstr "кг"
+
+#: admin/post-types/writepanels/writepanels-init.php:90
+#: i18n/languages/strings.php:34
+msgid "t"
+msgstr "т"
+
+#: admin/post-types/writepanels/writepanels-init.php:91
+msgid "oz"
+msgstr "унції"
+
+#: admin/post-types/writepanels/writepanels-init.php:92
+msgid "lbs"
+msgstr "фунти"
+
+#: admin/post-types/writepanels/writepanels-init.php:93
+#: i18n/languages/strings.php:35
+msgid "tn"
+msgstr "коротка тона"
+
+#: admin/post-types/writepanels/writepanels-init.php:118
+msgid "mm"
+msgstr "мм"
+
+#: admin/post-types/writepanels/writepanels-init.php:119
+msgid "cm"
+msgstr "см"
+
+#: admin/post-types/writepanels/writepanels-init.php:120
+msgid "m"
+msgstr "м"
+
+#: admin/post-types/writepanels/writepanels-init.php:121
+#: i18n/languages/strings.php:36
+msgid "km"
+msgstr "км"
+
+#: admin/post-types/writepanels/writepanels-init.php:122
+msgid "in"
+msgstr "дюйми"
+
+#: admin/post-types/writepanels/writepanels-init.php:123
+#: i18n/languages/strings.php:37
+msgid "ft"
+msgstr "фути"
+
+#: admin/post-types/writepanels/writepanels-init.php:124
+#: i18n/languages/strings.php:38
+msgid "yd"
+msgstr "ярди"
+
+#: admin/post-types/writepanels/writepanels-init.php:125
+#: i18n/languages/strings.php:39
+msgid "mi"
+msgstr "милі"
+
+#: admin/post-types/writepanels/writepanels-init.php:150
+#: i18n/languages/strings.php:44
+msgid "sq mm"
+msgstr "кв. мм"
+
+#: admin/post-types/writepanels/writepanels-init.php:151
+#: i18n/languages/strings.php:43
+msgid "sq cm"
+msgstr "кв. см"
+
+#: admin/post-types/writepanels/writepanels-init.php:152
+#: i18n/languages/strings.php:42
+msgid "sq m"
+msgstr "кв. м"
+
+#: admin/post-types/writepanels/writepanels-init.php:153
+#: i18n/languages/strings.php:40
+msgid "ha"
+msgstr "га"
+
+#: admin/post-types/writepanels/writepanels-init.php:154
+#: i18n/languages/strings.php:41
+msgid "sq km"
+msgstr "кв. км"
+
+#: admin/post-types/writepanels/writepanels-init.php:155
+#: i18n/languages/strings.php:49
+msgid "sq. in."
+msgstr "кв. дюйм"
+
+#: admin/post-types/writepanels/writepanels-init.php:156
+#: i18n/languages/strings.php:48
+msgid "sq. ft."
+msgstr "кв. фут"
+
+#: admin/post-types/writepanels/writepanels-init.php:157
+#: i18n/languages/strings.php:47
+msgid "sq. yd."
+msgstr "кв. ярд"
+
+#: admin/post-types/writepanels/writepanels-init.php:158
+#: i18n/languages/strings.php:45
+msgid "acs"
+msgstr "акр"
+
+#: admin/post-types/writepanels/writepanels-init.php:159
+#: i18n/languages/strings.php:46
+msgid "sq. mi."
+msgstr "кв. миля"
+
+#: admin/post-types/writepanels/writepanels-init.php:184
+#: i18n/languages/strings.php:52
+msgid "ml"
+msgstr "мл"
+
+#: admin/post-types/writepanels/writepanels-init.php:185
+#: i18n/languages/strings.php:51
+msgid "l"
+msgstr "л"
+
+#: admin/post-types/writepanels/writepanels-init.php:186
+#: i18n/languages/strings.php:50
+msgid "cu m"
+msgstr "куб. м"
+
+#: admin/post-types/writepanels/writepanels-init.php:187
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:173
+#: i18n/languages/strings.php:56
+msgid "cup"
+msgstr "чашка"
+
+#: admin/post-types/writepanels/writepanels-init.php:188
+#: i18n/languages/strings.php:55
+msgid "pt"
+msgstr "пінта"
+
+#: admin/post-types/writepanels/writepanels-init.php:189
+#: i18n/languages/strings.php:54
+msgid "qt"
+msgstr "кварта"
+
+#: admin/post-types/writepanels/writepanels-init.php:190
+#: i18n/languages/strings.php:53
+msgid "gal"
+msgstr "галон"
+
+#: admin/post-types/writepanels/writepanels-init.php:191
+#: i18n/languages/strings.php:57
+msgid "fl. oz."
+msgstr "рідка унція"
+
+#: admin/post-types/writepanels/writepanels-init.php:192
+#: i18n/languages/strings.php:60
+msgid "cu. in."
+msgstr "куб. дюйм"
+
+#: admin/post-types/writepanels/writepanels-init.php:193
+#: i18n/languages/strings.php:59
+msgid "cu. ft."
+msgstr "куб. фут"
+
+#: admin/post-types/writepanels/writepanels-init.php:194
+#: i18n/languages/strings.php:58
+msgid "cu. yd."
+msgstr "куб. ярд"
+
+#: admin/post-types/writepanels/writepanels-init.php:260
+msgid "Add Overage "
+msgstr "Додати перевищення"
+
+#: admin/post-types/writepanels/writepanels-init.php:261
+msgid ""
+"If you need to add and charge for a cut or overage estimate in addition to "
+"the customer input, enter the percentage of the total measurement to use."
+msgstr ""
+"Якщо вам потрібно додати ціну за перевищення чи недобір вимірювання до "
+"значення користувача, введіть відсоток від загального вимірювання."
+
+#: admin/post-types/writepanels/writepanels-init.php:308
+msgid "%s Input"
+msgstr "Поле вводу %s"
+
+#: admin/post-types/writepanels/writepanels-init.php:310
+msgid "Accept free-form customer input"
+msgstr "Приймати довільну форму вводу значень користувачем"
+
+#: admin/post-types/writepanels/writepanels-init.php:311
+msgid "Accept a limited set of customer inputs"
+msgstr "Приймати обмежений набір введених даних від користувача"
+
+#: admin/post-types/writepanels/writepanels-init.php:326
+msgid "%s Options"
+msgstr "Опції %s"
+
+#: admin/post-types/writepanels/writepanels-init.php:328
+msgid "Min value"
+msgstr "Мін. значення"
+
+#: admin/post-types/writepanels/writepanels-init.php:332
+msgid "Max value"
+msgstr "Макс. значення"
+
+#: admin/post-types/writepanels/writepanels-init.php:336
+msgid "Increment"
+msgstr "Крок підвищення"
+
+#: admin/post-types/writepanels/writepanels-init.php:341
+msgid ""
+"If applicable, enter limits to restrict customer input, such as an accepted "
+"increment and/or maximum value."
+msgstr ""
+"Якщо актуально, введіть ліміти та обмеження вводу даних користувача. Як "
+"наприклад макс. величина, чи допустиме підвищення."
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:71
+msgid "Cannot edit price while a pricing table is active"
+msgstr "Не можливо редагувати ціну коли активна таблиця цін."
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:136
+msgid ""
+"This controls what unit you can define areas in for the Measurements Price "
+"Calculator."
+msgstr ""
+"Це контролює які одиниці ви можете назначити для площі модулю Measurements "
+"Price Calculator."
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:160
+msgid ""
+"This controls what unit you can define volumes in for the Measurements Price "
+"Calculator."
+msgstr ""
+"Це контролює які одиниці ви можете назначити для об’єму модулю Measurements "
+"Price Calculator."
+
+#. translators: Placeholders: %s - measurement label
+#: classes/class-wc-price-calculator-cart.php:141
+msgid "%s missing."
+msgstr "Не вистачає - %s."
+
+#: classes/class-wc-price-calculator-cart.php:154
+msgid "%1$s value must be greater than or equal to %2$s."
+msgstr "Значення %1$s має бути більше або рівне %2$s."
+
+#: classes/class-wc-price-calculator-cart.php:162
+msgid "%1$s value must be less than or equal to %2$s."
+msgstr "Значення %1$s має бути менше або рівне %2$s."
+
+#: classes/class-wc-price-calculator-cart.php:174
+msgid "%1$s must be between %2$s and %3$s in increments of %4$s."
+msgstr "Значення %1$s має бути поміж %2$s  та %3$s з кроком підвищення у %4$s."
+
+#: classes/class-wc-price-calculator-cart.php:221
+msgid ""
+"No price available for a product with this measurement, please contact the "
+"store for assistance."
+msgstr ""
+"Немає ціни для цієї величини товару. Будь ласка, зверніться до адміністрації "
+"за допомогою."
+
+#: classes/class-wc-price-calculator-cart.php:1199
+msgid "Overage Estimate (%s)"
+msgstr "Оцінка перевищення (%s)"
+
+#. translators: Placeholders: %1$s - measurement label, %2$s - measurement unit
+#. label
+#: classes/class-wc-price-calculator-cart.php:1215
+#: templates/single-product/price-calculator.php:45
+msgid "Total %1$s (%2$s)"
+msgstr "Загалом: %1$s (%2$s)"
+
+#. translators: Placeholders: %s - measurement label
+#: classes/class-wc-price-calculator-cart.php:1217
+#: templates/single-product/price-calculator.php:47
+msgid "Total %s"
+msgstr "Загалом: %s"
+
+#. translators: Placeholders: %1$s - measurement label, %2$s - measurement unit
+#. label
+#: classes/class-wc-price-calculator-cart.php:1226
+msgid "Overage %1$s (%2$s)"
+msgstr "Перевищення: %1$s (%2$s)"
+
+#. translators: Placeholders: %s - measurement label
+#: classes/class-wc-price-calculator-cart.php:1228
+msgid "Overage %s"
+msgstr "Перевищення: %s"
+
+#: classes/class-wc-price-calculator-cart.php:1240
+msgid "Overage Cost (%s%%)"
+msgstr "Варстість перевищення (%s%%)"
+
+#: classes/class-wc-price-calculator-inventory.php:331
+msgid "Only %s %s left in stock"
+msgstr "Залишилось в наявності: %s %s"
+
+#: classes/class-wc-price-calculator-inventory.php:331
+msgid "In stock"
+msgstr "В наявності"
+
+#: classes/class-wc-price-calculator-inventory.php:334
+msgid "%s %s in stock"
+msgstr "В наявності: %s %s"
+
+#: classes/class-wc-price-calculator-inventory.php:341
+msgid "(backorders allowed)"
+msgstr "(дозволено передзамовлення)"
+
+#: classes/class-wc-price-calculator-inventory.php:584
+msgid "Backordered measure"
+msgstr "Вимірювання передзамовлення"
+
+#: classes/class-wc-price-calculator-inventory.php:593
+msgid "Backordered quantity or measure"
+msgstr "Вимірювання чи кількість передзамовлення"
+
+#: classes/class-wc-price-calculator-product-loop.php:72
+msgid "Select options"
+msgstr "Оберіть опції"
+
+#: classes/class-wc-price-calculator-product.php:310
+#: classes/class-wc-price-calculator-product.php:315
+msgid "Perimeter"
+msgstr "Периметр"
+
+#: classes/class-wc-price-calculator-product.php:350
+#: classes/class-wc-price-calculator-product.php:355
+msgid "Surface Area"
+msgstr "Площа поверхні"
+
+#: classes/class-wc-price-calculator-settings.php:617
+#: classes/class-wc-price-calculator-settings.php:619
+msgid "Free!"
+msgstr "Безкоштовно!"
+
+#: classes/class-wc-price-calculator-settings.php:807
+msgid "Required Length"
+msgstr "Необхідна довжина"
+
+#: classes/class-wc-price-calculator-settings.php:809
+msgid "Required Width"
+msgstr "Необхідна ширина"
+
+#: classes/class-wc-price-calculator-settings.php:811
+msgid "Required Height"
+msgstr "Необхідна висота"
+
+#: classes/class-wc-price-calculator-settings.php:813
+msgid "Required Area"
+msgstr "Необхідна площа"
+
+#: classes/class-wc-price-calculator-settings.php:814
+msgid "Required Volume"
+msgstr "Необхідний об’єм"
+
+#: classes/class-wc-price-calculator-settings.php:815
+msgid "Required Weight"
+msgstr "Необхідна вага"
+
+#: classes/class-wc-price-calculator-settings.php:816
+msgid "Distance around your room"
+msgstr "Дистанція по кімнаті"
+
+#. translators: Placeholders: %s - pricing unit
+#: classes/shortcodes/class-wc-price-calculator-shortcode-pricing-table.php:106
+msgid "Range (%s)"
+msgstr "Діапазон (%s)"
+
+#. translators: Placeholders: %s - currency symbol
+#: classes/shortcodes/class-wc-price-calculator-shortcode-pricing-table.php:108
+msgid "Price (%s)"
+msgstr "Ціна (%s)"
+
+#. translators: Placeholders: %1$s - measurement label, %2$s - measurement unit
+#. label
+#: templates/single-product/price-calculator.php:94
+#: templates/single-product/quantity-calculator.php:62
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: templates/single-product/price-calculator.php:146
+msgid "Overage estimate (%s%%)"
+msgstr "Оцінка перевищення (%s%%)"
+
+#: templates/single-product/price-calculator.php:154
+#: templates/single-product/quantity-calculator.php:86
+msgid "Total Price"
+msgstr "Загальна ціна"
+
+#: templates/single-product/price-calculator.php:154
+msgid "Product Price"
+msgstr "Ціна товару "
+
+#. translators: Placeholders: %1$s - measurement label, %2$s - measurement unit
+#. label
+#: templates/single-product/quantity-calculator.php:43
+msgid "Actual %1$s (%2$s)"
+msgstr "Фактично: %1$s (%2$s)"
+
+#. translators: Placeholders: %s - measurement label
+#: templates/single-product/quantity-calculator.php:45
+msgid "Actual %s"
+msgstr "Фактично: %s"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Measurement Price Calculator"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.woocommerce.com/products/measurement-price-calculator/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"WooCommerce plugin to provide price and quantity calculations based on "
+"product measurements"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "SkyVerge"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.woocommerce.com"
+msgstr ""
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:99
+msgctxt "metric ton"
+msgid "t"
+msgstr "т"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:102
+msgctxt "english ton"
+msgid "tn"
+msgstr "тн"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:114
+msgctxt "kilometer"
+msgid "km"
+msgstr "км"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:118
+msgctxt "foot"
+msgid "ft"
+msgstr "фут"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:119
+msgctxt "yard"
+msgid "yd"
+msgstr "ярд"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:120
+msgctxt "mile"
+msgid "mi"
+msgstr "миля"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:143
+msgctxt "hectare"
+msgid "ha"
+msgstr "га"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:144
+msgctxt "square kilometer"
+msgid "sq km"
+msgstr "кв. км"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:145
+msgctxt "square meter"
+msgid "sq m"
+msgstr "кв. м"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:146
+msgctxt "square centimeter"
+msgid "sq cm"
+msgstr "кв. см"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:147
+msgctxt "square millimeter"
+msgid "sq mm"
+msgstr "кв. мм"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:148
+msgctxt "acre"
+msgid "acs"
+msgstr "акр"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:149
+msgctxt "square mile"
+msgid "sq. mi."
+msgstr "кв. миля"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:150
+msgctxt "square yard"
+msgid "sq. yd."
+msgstr "кв. ярд"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:151
+msgctxt "square foot"
+msgid "sq. ft."
+msgstr "кв. фут"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:152
+msgctxt "square inch"
+msgid "sq. in."
+msgstr "кв. дюйм"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:167
+msgctxt "cubic meter"
+msgid "cu m"
+msgstr "куб. м"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:168
+msgctxt "liter"
+msgid "l"
+msgstr "л"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:169
+msgctxt "milliliter"
+msgid "ml"
+msgstr "мл"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:170
+msgctxt "gallon"
+msgid "gal"
+msgstr "галон"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:171
+msgctxt "quart"
+msgid "qt"
+msgstr "кварта"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:172
+msgctxt "pint"
+msgid "pt"
+msgstr "пінта"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:174
+msgctxt "fluid ounce"
+msgid "fl. oz."
+msgstr "рідка унція"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:175
+msgctxt "cubic yard"
+msgid "cu. yd."
+msgstr "куб. ярд"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:176
+msgctxt "cubic foot"
+msgid "cu. ft."
+msgstr "куб. фут"
+
+#: admin/woocommerce-measurement-price-calculator-admin-init.php:177
+msgctxt "cubic inch"
+msgid "cu. in."
+msgstr "куб. дюйм"
